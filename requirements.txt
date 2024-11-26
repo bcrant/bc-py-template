@@ -1,0 +1,4 @@
+# Requirements for running Cookie Cutter
+# https://cookiecutter.readthedocs.io/en/stable/#
+cookiecutter
+setuptools

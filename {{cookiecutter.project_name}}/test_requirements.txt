@@ -1,0 +1,8 @@
+black
+pylint
+pytest
+pytest-asyncio
+pytest-benchmark
+pytest-cov
+pytest-dotenv
+pytest-xdist

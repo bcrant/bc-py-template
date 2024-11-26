@@ -1,0 +1,13 @@
+[run]
+source = .
+omit =
+    # Omit build files from pytest coverage
+    setup.py
+    # Omit versioneer files from pytest coverage
+    {{ cookiecutter.package_name }}/_version.py
+    versioneer.py
+    # omit any .local and scratch directories
+    */.local/*
+    */scratch/*
+    # omit everything in tests/
+    *tests/*

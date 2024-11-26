@@ -1,0 +1,115 @@
+#
+# BASE
+#
+
+# Environment variables and dotenvs
+env/
+envs/
+#
+# Do not use blanket wildcard e.g. ".env.*" so that 
+# .env.example and .env.test do not get excluded.
+#
+.env
+# .env.dev | .env.develop | .env.development
+.env.de*
+# .env.prd | .env.prod | .env.production
+.env.pr*
+# .env.stg | .env.staging
+.env.st*
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Scratch and local data files
+.local/
+data/
+scratch/
+*.log
+
+# Distribution / packaging
+build/
+dist/
+downloads/
+lib/
+lib64/
+parts/
+sdist/
+var/
+tmp
+/out-tsc
+
+# Unit test / coverage reports
+coverage/
+htmlcov/
+.benchmarks/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*,cover
+.hypothesis/
+
+# Dependencies 
+.nx/cache
+node_modules/
+
+# Python
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+develop-eggs/
+downloads/
+eggs/
+.eggs/
+*.egg-info/
+*.egg
+.installed.cfg
+
+# pyenv
+.python-version
+
+# Unit test / coverage reports
+.pytest_cache/
+.tox/
+
+# Local files
+*.local.ipynb
+*.local.py
+*.local.scratch
+*.local.ts
+
+# Log files
+*.log
+*.log.*
+
+# misc
+/.sass-cache
+/connect.lock
+/libpeerconnection.log
+/typings

@@ -1,0 +1,13 @@
+[MASTER]
+ignore=_version.py,versioneer.py,tests
+persistent=yes
+fail-under=9.0
+[FORMAT]
+max-line-length=120
+[MESSAGES CONTROL]
+disable=too-few-public-methods,logging-fstring-interpolation,invalid-name,unnecessary-pass
+[REPORTS]
+evaluation=10.0 - ((float(5 * error + warning + refactor + convention) / statement) * 10)
+output-format=text
+reports=yes
+score=yes
