@@ -1,5 +1,4 @@
-"""{{ cookiecutter.package_name }}/core/constants.py
-"""
+"""{{ cookiecutter.package_name }}/core/constants.py"""
 
 
 class Constants:
