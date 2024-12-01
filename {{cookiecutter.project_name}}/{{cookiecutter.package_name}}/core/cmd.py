@@ -1,4 +1,4 @@
-"""{{ ookiecutter.package_name }}/core/cmd.py"""
+"""{{ cookiecutter.package_name }}/core/cmd.py"""
 
 from {{ cookiecutter.package_name }} import (
     env,
@@ -12,17 +12,17 @@ with env.prefixed({{ cookiecutter.package_name.upper() }}_PREFIX):
     {{ cookiecutter.package_name.upper() }}_BAR = env("BAR")
 
 
-def run_{{ ookiecutter.package_name }}(foo: str) -> None:
+def run_{{ cookiecutter.package_name }}(foo: str) -> None:
     """
-    Run {{ ookiecutter.package_name }}.
+    Run {{ cookiecutter.package_name }}.
 
     Args:
         foo: str   A description or typehint of foo
     Returns:
         None
     """
-    log.info("Run {{ ookiecutter.package_name }} starting...")
+    log.info("Run {{ cookiecutter.package_name }} starting...")
     #
     # Do some stuff
     #
-    log.info("Run {{ ookiecutter.package_name }} ended.")
+    log.info("Run {{ cookiecutter.package_name }} ended.")
