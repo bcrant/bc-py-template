@@ -1,5 +1,4 @@
 click
 environs
-json_log_formatter
 setuptools
 wheel
